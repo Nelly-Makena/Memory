@@ -1,0 +1,517 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff; /* Lighter blue */
+    padding: 1rem; /* Reduced navbar thickness */
+}
+
+.navbar-nav {
+    display: flex; /* Use flexbox to layout nav items */
+    justify-content: center; /* Center the nav items */
+    width: 100%; /* Ensure it takes the full width */
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding: 0.6rem 1rem;
+    margin: 0 0.5rem;
+    text-align: center;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: #d1e8ff;
+}
+
+/* Content Styling */
+.content-wrapper {
+    background-color: #f4f9fd; /* Light background for content */
+    padding: 5rem 2rem; /* Padding around content */
+    text-align: center; /* Center-align the text */
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 100px; /* Space from navbar */
+    margin-bottom: 8rem;
+}
+
+.content-wrapper h1 {
+    font-size: 2.5rem; /* Larger font size for the title */
+    color: #333; /* Dark text color */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content-wrapper p {
+    font-size: 1.2rem; /* Larger font size for readability */
+    color: #666; /* Slightly lighter color for the text */
+    max-width: 800px;
+    margin: 0 auto 30px auto; /* Center the paragraph */
+    line-height: 1.6; /* Improved readability */
+}
+
+.content-wrapper a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.content-wrapper a:hover {
+    background-color: #0056b3;
+}
+
+/* Types of Memory Page Specific Styles */
+.types-memory-wrapper {
+    background-color: #ffffff; /* White background for content */
+    padding: 3rem 2rem; /* Padding around content */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 100px; /* Space from navbar */
+    max-width: 1200px; /* Max width for large screens */
+    margin-left: auto;
+    margin-right: auto; /* Center align content */
+}
+
+.types-memory-wrapper h1 {
+    font-size: 3rem; /* Larger font size for the main heading */
+    color: #333; /* Dark text color */
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.types-memory-wrapper h2 {
+    font-size: 2rem; /* Font size for subheadings */
+    color: #333;
+    margin-top: 40px;
+    text-align: left; /* Left-aligned subheadings */
+    margin-bottom: 20px;
+}
+
+.types-memory-wrapper p {
+    font-size: 1.2rem; /* Larger font size for readability */
+    color: #666; /* Slightly lighter color for the text */
+    max-width: 800px;
+    margin: 0 auto 30px auto; /* Center the paragraph */
+    line-height: 1.6; 
+    text-align: justify; /* Justify the text for a more formal look */
+}
+
+.types-memory-wrapper img {
+    width: 70%; /* Smaller images */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Space below images */
+}
+
+.types-memory-wrapper a {
+    text-decoration: none;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.types-memory-wrapper a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.types-memory-wrapper table {
+    width: 100%; /* Full width for table */
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.types-memory-wrapper th, .types-memory-wrapper td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Light border for table */
+}
+
+.types-memory-wrapper th {
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+
+.types-memory-wrapper tbody tr:hover {
+    background-color: #f9f9f9; /* Hover effect on rows */
+}
+/* Impact of Emotions on Memory Page */
+.emotion-memory-wrapper {
+    background-color: #f9f9f9; /* Light grey background for content */
+    padding: 4rem 2rem; /* Padding around content */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-top: 100px; /* Space from navbar */
+    max-width: 1200px; /* Max width for large screens */
+    margin-left: auto;
+    margin-right: auto; /* Center align content */
+}
+
+/* Main Heading */
+.main-heading {
+    font-size: 3.5rem; /* Larger font size for the main heading */
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Section Heading */
+.section-heading {
+    font-size: 2.2rem; /* Font size for subheadings */
+    color: #007bff; /* Blue color for subheadings */
+    margin-top: 40px;
+    text-align: left; /* Left-aligned subheadings */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #007bff; /* Border under headings */
+    padding-bottom: 5px;
+}
+
+/* Paragraph Styling */
+.emotion-memory-wrapper p {
+    font-size: 1.2rem; /* Larger font size for readability */
+    color: #555; /* Dark gray color for text */
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 30px auto; /* Center align text */
+    text-align: justify; /* Justify text for a cleaner look */
+}
+
+/* Learn More Link */
+.learn-more-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.learn-more-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Full width for table */
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners for the table */
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Light gray border for table */
+    font-size: 1.1rem;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Hover effect on rows */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2rem; /* Adjust font size for mobile */
+    }
+
+    .section-heading {
+        font-size: 1.5rem;
+    }
+
+    .emotion-memory-wrapper p {
+        font-size: 1rem; /* Adjust paragraph text size */
+    }
+
+    .emotion-memory-wrapper {
+        padding: 2rem 1rem; /* Adjust padding for mobile */
+    }
+
+    table th, table td {
+        font-size: 1rem; /* Smaller font size for table on mobile */
+    }
+}
+/*  Techniques for Recalling Page */
+.recall-techniques-wrapper {
+    background-color: #f4f9fd; /* Light background for content */
+    padding: 4rem 2rem; /* Padding around content */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-top: 100px; /* Space from navbar */
+    max-width: 1200px; /* Max width for large screens */
+    margin-left: auto;
+    margin-right: auto; /* Center align content */
+}
+
+/* Main Heading */
+.main-heading {
+    font-size: 3.5rem; /* Larger font size for the main heading */
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Section Heading */
+.section-heading {
+    font-size: 2.2rem; /* Font size for subheadings */
+    color: #007bff; /* Blue color for subheadings */
+    margin-top: 40px;
+    text-align: left; /* Left-aligned subheadings */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #007bff; /* Border under headings */
+    padding-bottom: 5px;
+}
+
+/* Card Deck Styling */
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 30%; /* Each card takes up 30% of the width */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Hover effect for cards */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.learn-more-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.learn-more-link:hover {
+    color: #0056b3;
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Full width for table */
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 1.1rem;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1; /* Hover effect on rows */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2.2rem; /* Adjust font size for mobile */
+    }
+
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    .card {
+        width: 100%; /* Full width for cards on mobile */
+    }
+
+    table th, table td {
+        font-size: 1rem; /* Smaller font size for table on mobile */
+    }
+}
+
+
+/* Mobile Responsiveness for Types of Memory Page */
+@media (max-width: 768px) {
+    .types-memory-wrapper h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .types-memory-wrapper h2 {
+        font-size: 1.5rem;
+    }
+
+    .types-memory-wrapper p {
+        font-size: 1rem; /* Adjust paragraph text size on mobile */
+    }
+
+    .types-memory-wrapper {
+        padding: 2rem 1rem; /* Adjust padding for smaller screens */
+    }
+}
+/* References Page Styles */
+.references-wrapper {
+    background-color: #f4f9fd; /* Light background */
+    padding: 4rem 2rem; /* Padding around content */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-top: 100px; /* Space from navbar */
+    max-width: 1000px; /* Max width for large screens */
+    margin-left: auto;
+    margin-right: auto; /* Center align content */
+}
+
+/* Main Heading */
+.main-heading {
+    font-size: 3rem; /* Larger font size for the main heading */
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* List Styling */
+.references-list {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    list-style-type: none;
+    padding: 0;
+}
+
+.references-list li {
+    margin-bottom: 20px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.references-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #007bff; /* Blue bullet */
+}
+
+.references-list em {
+    font-style: italic;
+    color: #007bff;
+}
+
+.references-list strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Learn More Link */
+.learn-more-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.learn-more-link:hover {
+    color: #0056b3;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #007bff; /* Matching blue */
+    color: white; /* White text color */
+    padding: 1rem 0; /* Padding for top and bottom */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2.2rem; /* Adjust font size for mobile */
+    }
+
+    .references-list {
+        font-size: 1rem; /* Adjust font size for better readability */
+    }
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #007bff; /* Matching the blue theme */
+    color: white; /* White text color */
+    padding: 1rem 0; /* Padding for top and bottom */
+    text-align: center; /* Center align the text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .content-wrapper h1 {
+        font-size: 3rem;
+    }
+
+    .content-wrapper p {
+        font-size: 1.4rem;
+    }
+}
